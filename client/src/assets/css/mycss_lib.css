@@ -1,0 +1,282 @@
+*{
+  outline: none;
+}
+
+.profil-image div{
+  margin: 0 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  left: 135px;
+  border-radius: 9px;
+  -webkit-box-shadow: 0px 1px 2px 0px #00000070!important;
+  box-shadow: 0px 1px 2px 0px #00000070!important;
+  margin-top: 10px;
+}
+
+.profilPicture {
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 450px;
+  height: 261px;
+}
+
+
+.suggestions-big-box {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+}
+
+.pagination-bottom {
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+.suggestions-profil-picture {
+
+  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  width: 100%;
+  height: 400px;
+  border-radius: 9px;
+}
+
+
+.suggestions-profil {
+  position: relative;
+  margin: 10px;
+  width: 30%;
+  padding: 10px;
+  box-shadow: 0px 0px 3px 2px #0000001f;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: .4s ease;
+}
+
+.suggestions-profil:hover {
+  box-shadow: 0px 0px 11px 2px #00000070;
+}
+
+.suggestions-profil-message {
+  position: relative;
+  margin: 10px;
+  width: 100%;
+}
+
+.show-user-details {
+  background-color: #00000094;
+  position: fixed;
+  z-index: 1000;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  padding: 125px 0;
+}
+
+.show-user-details-profil {
+  background-color: white;
+  border-radius: 7px;
+  width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 720px;
+  height: fit-content;
+  box-sizing: content-box;
+}
+
+.show-user-details-profil2 {
+  background-color: white;
+  border-radius: 7px;
+  margin-top: 100px;
+  width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 400px;
+  height: fit-content;
+}
+
+.show-user-close-button {
+  width: 27px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+.show-user-close-button:hover {
+  transform: scale(1.05)
+}
+
+
+.show-user-global {
+  display: flex;
+  justify-content: left;
+  height: 200px;
+}
+
+.show-user-picture{
+    width: 70%;
+    height: 120%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border-radius: 9px;
+    box-shadow: 0px 1px 2px 0px #00000070!important;
+}
+
+.show-user-infos {
+  height: 30%;
+  width: 100%;
+}
+
+.show-user-infos-names {
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.show-user-infos-description{
+  font-size: 20px;
+  overflow: auto;
+  width: 100%;
+  max-height: 300px;
+}
+
+.show-user-infos-tags {
+  font-weight: bold;
+}
+
+.flex-description {
+  padding-top: 70px;
+}
+/*
+button.navbar-button2 {
+  font-size: 17px;
+  width: auto;
+  length: 30px;
+  padding: 0;
+  margin: 0em 20px;
+}*/
+
+.navbar-items {
+  margin-right: 25px!important;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-button {
+  margin-left: 20px;
+  font-size: 16px;
+  transition: .4s ease;
+  box-sizing: content-box;
+}
+
+.navbar-button:hover {
+  color: #00bcd4;
+}
+
+.show-movie-watched {
+  height: 30px;
+  width: 100px;
+
+}
+
+/*
+button.watch-this-movie-button {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  border-color: 1px solid black;
+}
+*/
+
+.show-comments-film-comment {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.show-comments-film {
+  margin: 0;
+  width: 100%;
+  display: inline-grid;
+  position: relative;
+  padding: 20px;
+}
+
+.show-comments-author {
+  font-size: 16px;
+  font-style: normal;
+  color: #00bcd4;
+  float: left;
+  padding-top: 15px;
+  padding-left: 10px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.show-comments-comment {
+  font-size: 16px;
+  font-style: normal;
+  color: black;
+  float: left;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.show-comment-write-new-comment {
+  margin-bottom: 50px;
+}
+
+.suggestions-big-box-advancedSearch {
+  margin: auto;
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  width: fit-content;
+  display: flex;
+    align-items: center;
+}
+
+.suggestions-big-box-advancedSearch button{
+  border-radius: 9px;
+  box-shadow: 0px 1px 2px 0px #00000070!important;
+}
+
+.v-btn{
+  border-radius: 9px;
+  -webkit-box-shadow: 0px 1px 2px 0px #00000070!important;
+  box-shadow: 0px 1px 2px 0px #00000070!important;
+}
