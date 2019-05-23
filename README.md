@@ -1,5 +1,5 @@
 # hypertube
-Site de streaming de film par torrent en NodeJS et VueJS sur une BDD MongoDB (Utilisation de Vuetify pour le front)
+Site de streaming de film par torrent en NodeJS et VueJS sur une BDD MongoDB (Utilisation de Vuetify pour le front) by dolivier, fdrias & nicnguye
 
 - L'utilisateur après inscription peut regarder en streaming des films (téléchargé en torrent) parmi un catalogue
 - Le catalogue peut-être trié par ordre croissant ou inverse sur les noms et notes des films ainsi que par genre de film. Un système de recherche de film est aussi inclus
